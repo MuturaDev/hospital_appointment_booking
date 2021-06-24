@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="5dp"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="700dp">
+
+        <RelativeLayout
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:visibility="visible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/top"
+                android:text="Please enter the following doctor information"
+                android:textColor="@color/colorPrimary"
+                />
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_marginBottom="70dp"
+                android:layout_below="@+id/top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:paddingBottom="10dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_marginLeft="30dp"
+                        android:text="Doctor Info"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Enter Doctor Name"
+                        android:background="@drawable/edit_text_rect_bg"
+                        android:layout_width="match_parent"
+                        android:textSize="13sp"
+                        android:layout_height="50dp"
+                        android:drawablePadding="10dp"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_marginLeft="34dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Please enter your username."
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        />
+
+                    <EditText
+                        android:textSize="13sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Enter ID No."
+                        android:background="@drawable/edit_text_rect_bg"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:drawablePadding="10dp"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_marginLeft="34dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Please enter your username."
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        />
+
+                    <EditText
+                        android:textSize="13sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Enter Prof Name"
+                        android:background="@drawable/edit_text_rect_bg"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        
+                        android:drawablePadding="10dp"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_marginLeft="34dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Please enter your username."
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        />
+
+                    <EditText
+                        android:textSize="13sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Enter Prof statement"
+                        android:background="@drawable/edit_text_rect_bg"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        
+                        android:drawablePadding="10dp"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_marginLeft="34dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Please enter your username."
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        />
+
+                    <EditText
+                        android:textSize="13sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Enter Practising from"
+                        android:background="@drawable/edit_text_rect_bg"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        
+                        android:drawablePadding="10dp"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_marginLeft="34dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Please ente."
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        />
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="Doctor Qualifications"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <EditText
+                        android:textSize="13sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Enter Qualifications"
+                        android:background="@drawable/edit_text_rect_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        
+                        android:drawablePadding="10dp"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_marginLeft="34dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Please enter your username."
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        />
+
+                    <EditText
+                        android:textSize="13sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Enter Institution name"
+                        android:background="@drawable/edit_text_rect_bg"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        
+                        android:drawablePadding="10dp"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_marginLeft="34dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Please enter your username."
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="30dp"
+                        android:text="Doctor Affiliations"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorPrimary"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                    <EditText
+                        android:textSize="13sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Enter City"
+                        android:background="@drawable/edit_text_rect_bg"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        
+                        android:drawablePadding="10dp"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_marginLeft="34dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Please enter your username."
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        />
+
+                    <EditText
+                        android:textSize="13sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Enter Country"
+                        android:background="@drawable/edit_text_rect_bg"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+
+                        android:drawablePadding="10dp"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_marginLeft="34dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Please enter your username."
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        />
+
+
+                    <EditText
+                        android:textSize="13sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Enter Hospital Name"
+                        android:background="@drawable/edit_text_rect_bg"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+
+                        android:drawablePadding="10dp"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_marginLeft="34dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Please enter your username."
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        />
+
+
+                    <EditText
+                        android:textSize="13sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Enter Start date"
+                        android:background="@drawable/edit_text_rect_bg"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+
+                        android:drawablePadding="10dp"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_marginLeft="34dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Please enter your username."
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        />
+
+                    <EditText
+                        android:textSize="13sp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:hint="Enter End date"
+                        android:background="@drawable/edit_text_rect_bg"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+
+                        android:drawablePadding="10dp"
+                        android:inputType="text"
+                        android:padding="10dp"
+                        android:singleLine="true" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_marginLeft="34dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Please enter your username."
+                        android:textColor="@color/colorAccent"
+                        android:textSize="10sp"
+                        android:textStyle="bold"
+                        />
+                    
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+
+            <Button
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/layout"
+                android:text="SAVE DETAILS"
+                android:id="@+id/login_btn"
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_bg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:elevation="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:layout_width="100dp"
+        android:padding="10dp"
+        android:src="@drawable/edit_profile"
+        android:background="@drawable/circular_white_bg"
+        android:layout_height="100dp"/>
+
+</RelativeLayout>

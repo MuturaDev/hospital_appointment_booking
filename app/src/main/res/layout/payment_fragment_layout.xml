@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="5dp"
+        app:cardCornerRadius="5dp"
+        android:layout_marginTop="65dp"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_marginTop="80dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="dkfjladjfldjjdljf"
+                    android:textColor="@color/colorPrimary"
+                    />
+
+                <EditText
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:hint="Phone number eg. 254 XXX XXX XXX"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:textSize="13sp"
+                    android:layout_height="50dp"
+                    android:drawablePadding="10dp"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_marginLeft="34dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Please enter your username."
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    />
+
+                <EditText
+                    android:textSize="13sp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:hint="Amount"
+                    android:background="@drawable/edit_text_bg"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:drawableLeft="@drawable/money_icon_small"
+                    android:drawablePadding="10dp"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:visibility="gone"
+                    android:layout_marginLeft="34dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Please enter your username."
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    />
+
+
+                <Button
+                    android:layout_marginTop="30dp"
+                    android:layout_below="@+id/layout"
+                    android:text="PAY AMOUNT"
+                    android:id="@+id/pay_amount_btn"
+                    android:padding="10dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/button_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ImageView
+        android:elevation="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:padding="15dp"
+        android:src="@drawable/mpesa_icon"
+        android:background="@drawable/circular_white_bg"
+        android:layout_height="100dp"/>
+
+</RelativeLayout>

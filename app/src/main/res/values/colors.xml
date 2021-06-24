@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2481C7</color>
+    <color name="colorPrimaryDark">#175583</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--Custom colors-->
+    <color name="cm_green">#4CAF50</color>
+    <color name="primary_blue">#007bff</color>
+    <color name="info_teal">#17a2b8</color>
+    <color name="success_green">#28a745</color>
+    <color name="warning_yellow">#ffc107</color>
+    <color name="danger_red">#dc3545</color>
+    <color name="dark_dark">#343a40</color>
+    <color name="secondary">#6c757d</color>
+    <color name="light_light_gray">#f8f9fa</color>
+    <color name="white_white">#ffffff</color>
+    <color name="highlight">@color/info_teal</color>
+</resources>

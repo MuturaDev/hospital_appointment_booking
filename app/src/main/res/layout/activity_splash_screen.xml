@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SplashScreenActivity"
+   >
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:paddingTop="80dp"
+        android:orientation="vertical"
+        android:background="@drawable/circular_bottom_bg"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <ImageView
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_icon"
+            />
+
+        <TextView
+            android:textSize="25sp"
+            android:text="Welcome To"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:textSize="35sp"
+            android:text="HABS"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.prush.typedtextview.TypedTextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/typedTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#00A7FC"
+            app:randomize_typing_speed="true"
+            app:randomize_type_seed="75"
+            app:show_cursor="true"
+            app:cursor_blink_speed="530"
+            app:sentence_pause="1500"
+            app:split_sentences="true"
+            app:play_keystrokes_audio="false"
+            app:typed_text="Hospital Appointment Booking System"
+            app:typing_speed="175"/>
+
+
+<!--        <TextView-->
+<!--            android:textSize="15sp"-->
+<!--            android:text="Hospital Appointment Booking System"-->
+<!--            android:textColor="#00A7FC"-->
+<!--            android:layout_gravity="center_horizontal"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"/>-->
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/layout"
+        android:text="LOGIN"
+        android:id="@+id/login_btn"
+        android:padding="10dp"
+        android:onClick="login_btn"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/login_btn"
+        android:text="Sign up"
+        android:padding="10dp"
+        android:onClick="signup_btn"
+        android:id="@+id/signup_btn"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/button_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+</RelativeLayout>
